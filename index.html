@@ -3,60 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Sinwoovj's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Sinwoovj</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Sinwoovj, a passionate Game developer with a love for creating beautiful and functional websites.</p>
-    </section>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/27845eac-35ca-4523-a809-6cbcef095901/12.jpg" alt="Sinwoovj" class="profile-img">
+                <p>👋 안녕하세요, <strong>부산 영도</strong>에 살고 있는 개발자 <strong>최신우</strong> 입니다.</p>
+                <p><strong>생년월일</strong>: 2006.01.07</p>
+                <p><strong>좋아하는 것</strong>: 소설 집필, 유튜브/애니메이션 시청, 여행, 리듬 게임</p>
+                <p><strong>하고 싶은 것</strong>: 3D 모델링, 게임 개발, 게임 기획, 소설 집필, 그림</p>
+                <h3>가치관</h3>
+                <ul>
+                    <li>나보다 남을 더 생각하지만 남에게 휘둘리지는 말자.</li>
+                    <li>후회없이 산다는 건 내가 생각하기 나름이니까.</li>
+                    <li>쉬운 것들이 모여 어려운 것이 되는 거다. 생각해보면 못할 것 하나 없다.</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>...</li>
-        </ul>
-    </section>
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2>Certifications</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>취득일</th>
+                            <th>자격증명 / 수상명</th>
+                            <th>자격 등록번호 / 등위</th>
+                            <th>발행기관</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2018.3.22</td>
+                            <td>한자능력검정시험 3급</td>
+                            <td>091-30-01009</td>
+                            <td>(사)한자교육진흥회</td>
+                        </tr>
+                        <tr>
+                            <td>2023.05.26</td>
+                            <td>정보처리산업기사</td>
+                            <td>23251210349U</td>
+                            <td>한국산업인력공단</td>
+                        </tr>
+                        <tr>
+                            <td>2023.07.12</td>
+                            <td>3D프린터운용기능사</td>
+                            <td>23400030621J</td>
+                            <td>한국산업인력공단</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>A brief description of your project. <a href="#">View Project</a></p>
-        </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>A brief description of your project. <a href="#">View Project</a></p>
-        </div>
-    </section>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-category">
+                    <h3>게임 엔진</h3>
+                    <div class="skill">
+                        <h4>Unity</h4>
+                        <p>저의 주력 엔진 입니다. VR 모듈을 사용해 플레이어와 3D 객체가 인터렉션 할 수 있도록 개발, 2D 모듈로 간단한 리듬 게임과 인벤토리 및 아이템 개발, 타일 기능으로 맵을 구현하고 NPC와 대화를 하거나 퀘스트 기능도 개발했습니다.</p>
+                        <a href="https://blog.naver.com/PostList.naver?blogId=sinwoovj&from=postList&categoryNo=11" target="_blank">Unity 블로그</a>
+                    </div>
+                    <div class="skill">
+                        <h4>Unreal Engine 5</h4>
+                        <p>최근에 배우기 시작했고 어렵지만 재미있었습니다. 아직 능숙하지는 않지만 직접 몇몇 기능을 구현해보고 글로 정리했습니다. 또한 버전 4이긴 하나 CARLA 프로젝트를 통해 공부하고 있습니다.</p>
+                        <a href="https://blog.naver.com/PostList.naver?blogId=sinwoovj&from=postList&categoryNo=12" target="_blank">UE5 블로그</a>
+                    </div>
+                </div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at <a href="mailto:youremail@example.com">sinwoovj@naver.com</a></p>
-        <br>
-        <br>
-    </section>
+                <div class="skills-category">
+                    <h3>앱 개발</h3>
+                    <div class="skill">
+                        <h4>Flutter</h4>
+                        <p>학교 정규 수업 시간에 학습하였습니다. 조예가 깊지는 않으나 기본은 하고 있습니다.</p>
+                        <a href="https://github.com/sinwoovj/flutter_study" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>웹 개발</h3>
+                    <div class="skill">
+                        <h4>Spring</h4>
+                        <p>학교 정규 수업 시간에 학습하였습니다. 몇차례 블로그 포스팅도 하였으며 OOP에 대한 이해도가 원래 있었어서 더욱 하기 쉬웠습니다.</p>
+                    </div>
+                    <div class="skill">
+                        <h4>Django</h4>
+                        <p>학교 웹프로그래밍 시간에 현업 개발자 분께 과외 받았었습니다. 실제로 사이트를 완성해보지는 못했으나 기본적인 개념과 원리, 구조에 대해 깨우쳤습니다.</p>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>디자인</h3>
+                    <div class="skill">
+                        <h4>Blender</h4>
+                        <p>배우고 사용한 기간은 2년 정도이며 대부분의 모형, 물체를 만들어 낼 수 있습니다. 직접 건물을 치수를 재고 형상화하거나 상황별 3D 프로토타입 제작, 3D 영상 리소스 제작 경험이 있으며 적절한 텍스처를 구하여 상황에 맞는 오브젝트를 모델링·디자인 할 수 있습니다.</p>
+                        <a href="https://www.youtube.com/watch?v=XAE4HVudnh4" target="_blank">Blender 프로젝트</a>
+                    </div>
+                    <div class="skill">
+                        <h4>Adobe Programs</h4>
+                        <ul>
+                            <li>Adobe Illustrator: 로고를 제작하거나 드로잉할 때 사용합니다.</li>
+                            <li>Adobe Photoshop: 그림이나 사진을 편집하거나 간단한 GIF를 만들 때 사용합니다.</li>
+                            <li>Adobe After Effects: 간단한 모션 그래픽 제작</li>
+                            <li>Adobe Fresco: 디자인 스케치 및 구상할 때나, 드로잉 할 때 사용합니다.</li>
+                            <li>Adobe Animate CC: After Effects와 함께 애니메이션을 제작할 수 있습니다.</li>
+                            <li>Adobe Premier Pro: PhotoShop과 Illustrator, AfterEffects 는 학교 정규 수업, 방과 후 시간을 통해 교육 받은 경험이 있으며, 개인적으로도 공부하여 사진 편집, 영상 제작 등에 경험이 있습니다.</li>
+                        </ul>
+                        <a href="https://www.youtube.com/watch?v=Zf4x-d26qtk&t=407s" target="_blank">유튜브 영상 편집 예시</a>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>기술 문서 작성 및 영상 제작</h3>
+                    <p>기술적인 주제에 대해 글로 정리하는 것을 좋아하기도하고 잘한다고 자부할 수 있습니다. 영상과 사진 자료 등으로 설명해 사람들이 쉽게 이해하도록 하는 것에 보람을 느낍니다.</p>
+                    <a href="https://blog.naver.com/sinwoovj" target="_blank">Maresyoku's Blog</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://www.notion.so/0bed8ce836a14723b0ef23a0645454f7?pvs=21" target="_blank">진행중인 프로젝트</a></li>
+                    <li><a href="https://www.notion.so/3bc6427633fb4062bddcc611f96be1c2?pvs=21" target="_blank">정지된 프로젝트</a></li>
+                    <li><a href="https://www.notion.so/2119e560d9c44d0f96741c094d2f746b?pvs=21" target="_blank">종료된 프로젝트</a></li>
+                    <li><a href="https://www.notion.so/3f08eb9666e8458ebfe37bf5611d0c97?pvs=21" target="_blank">무덤에 간 프로젝트</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>📨 <a href="mailto:sinwoovj@naver.com">sinwoovj@naver.com</a></p>
+                <p>📱 010-4972-0076</p>
+                <p><a href="https://www.notion.so/4ad2530a5ac04b9ab0268e4d8c5fdfe6?pvs=21" target="_blank">블로그</a></p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Shinwoo Choi. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Sinwoovj. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
